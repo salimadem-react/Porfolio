@@ -4,12 +4,13 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
 import Topbar from "./components/topbar/Topbar";
 import Works from "./components/works/Works";
+import "./app.scss";
 
 export default function App() {
   return (
-    <div>
+    <div className="app">
       <Topbar />
-      <div className="secti">
+      <div className="sections">
         <Intro />
         <Portfolio />
         <Works />
